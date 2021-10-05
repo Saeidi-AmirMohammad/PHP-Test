@@ -10,15 +10,8 @@
 
 <body>
     <?php
-    $fName = "AmirMohammad";
-    $lName = "Saeidi";
-    echo $fName, $lName;
-    ?>
-    <br>
-    <?php
-    $num1 = 10;
-    $num2 = 15;
-    echo $num1 + $num2;
+    $name = 'amir\'';
+    var_dump($name);
     ?>
 </body>
 
