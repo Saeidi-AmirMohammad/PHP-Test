@@ -10,8 +10,11 @@
 
 <body>
     <?php
-    $name = 'amir\'';
-    var_dump($name);
+    $name = "AmirMohammad";
+    $family = "Saeidi";
+    $fullName = $name ." ". $family;
+
+    var_dump($fullName);
     ?>
 </body>
 
