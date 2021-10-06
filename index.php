@@ -10,15 +10,14 @@
 
 <body>
     <?php
- $num1 = 3;
- $num2 = 5;
- if ($num1 and $num2 == 3) {
-     echo "three";
- }
+$num2 = 4;
+    $num2 += 5;
+    echo $num2;
 
- if ($num1 or $num2 == 3) {
-    echo "three";
-}
+    $name = "Amir";
+    $family = "Saeidi";
+    echo $name .= $family; 
+
     ?>
 </body>
 
