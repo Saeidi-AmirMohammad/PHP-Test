@@ -10,13 +10,15 @@
 
 <body>
     <?php
-$num2 = 4;
-    $num2 += 5;
-    echo $num2;
+array(
+    "saeidi",
+    "amir",
+    4,
+    null,
+    true
+);
 
-    $name = "Amir";
-    $family = "Saeidi";
-    echo $name .= $family; 
+var_dump(array(1) , array(3)); 
 
     ?>
 </body>
