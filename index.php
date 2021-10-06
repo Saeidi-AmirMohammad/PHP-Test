@@ -10,11 +10,15 @@
 
 <body>
     <?php
-    $name = "AmirMohammad";
-    $family = "Saeidi";
-    $fullName = $name ." ". $family;
+ $num1 = 3;
+ $num2 = 5;
+ if ($num1 and $num2 == 3) {
+     echo "three";
+ }
 
-    var_dump($fullName);
+ if ($num1 or $num2 == 3) {
+    echo "three";
+}
     ?>
 </body>
 
