@@ -10,26 +10,24 @@
 
 <body>
     <?php
-    $glassColor = 'blue';
+    $list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
-    switch ($glassColor) {
-        case "red": {
-            echo "glass color is red";
-            break;
-            }
-        case "blue" :{
-            echo "glass color is blue";
-            break;
-        }
-        case "green" :{
-            echo "glass color is green";
-            break;
-        }
-        default :{
-            echo "is another color";
-            break;
-        }
+    $i = 0;
+
+    while ($i < 12) {
+        echo $list[$i] . " ";
+
+        $i++;
     }
+
+    $i = 0;
+
+    do {
+        echo "<br>";
+        echo $list[$i] . " ";
+
+        $i++;
+    } while ($i < 12)
 
     ?>
 </body>
