@@ -10,15 +10,24 @@
 
 <body>
     <?php
-array(
-    "saeidi",
-    "amir",
-    4,
-    null,
-    true
-);
+$glassColor = 'green';
+ if ($glassColor == 'blue'){
+echo "glass color is blue";
+ }
 
-var_dump(array(1) , array(3)); 
+ elseif ($glassColor == 'red')
+ {
+     echo "glass color is red";
+ }
+
+ elseif ($glassColor == 'green')
+ {
+     echo "glass color is green";
+ }
+
+ else{
+     echo "is another glass";
+ }
 
     ?>
 </body>
