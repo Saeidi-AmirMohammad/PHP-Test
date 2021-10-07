@@ -10,24 +10,26 @@
 
 <body>
     <?php
-$glassColor = 'green';
- if ($glassColor == 'blue'){
-echo "glass color is blue";
- }
+    $glassColor = 'blue';
 
- elseif ($glassColor == 'red')
- {
-     echo "glass color is red";
- }
-
- elseif ($glassColor == 'green')
- {
-     echo "glass color is green";
- }
-
- else{
-     echo "is another glass";
- }
+    switch ($glassColor) {
+        case "red": {
+            echo "glass color is red";
+            break;
+            }
+        case "blue" :{
+            echo "glass color is blue";
+            break;
+        }
+        case "green" :{
+            echo "glass color is green";
+            break;
+        }
+        default :{
+            echo "is another color";
+            break;
+        }
+    }
 
     ?>
 </body>
