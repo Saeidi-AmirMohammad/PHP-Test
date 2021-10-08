@@ -10,24 +10,11 @@
 
 <body>
     <?php
-    $list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-
-    $i = 0;
-
-    while ($i < 12) {
-        echo $list[$i] . " ";
-
-        $i++;
+    $list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    for($i = 0; $i < 10; $i++){
+        echo $list[$i];
     }
 
-    $i = 0;
-
-    do {
-        echo "<br>";
-        echo $list[$i] . " ";
-
-        $i++;
-    } while ($i < 12)
 
     ?>
 </body>
