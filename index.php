@@ -13,11 +13,12 @@
     function sum($a, $b = 0)
     {
         $c = $a + $b;
-        return $c;
+        $d = $a + 2;
+        return [$c , $d];
     }
 
-    echo sum(3, 5);
-
+     list($num1 , $num2) = sum(4 , 6);
+     echo $num1 . "," .$num2; 
 
     ?>
 </body>
