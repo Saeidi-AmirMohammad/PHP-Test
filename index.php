@@ -10,16 +10,13 @@
 
 <body>
     <?php
-    $list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    for($i = 0; $i < 10; $i++){
-        echo $list[$i] . " ";
-        break;
+    function sum($a, $b = 0)
+    {
+        $c = $a + $b;
+        return $c;
     }
 
-    foreach($list as $item){
-        if( $item == 7) {continue;}
-        echo $item . " ";
-    }
+    echo sum(3, 5);
 
 
     ?>
