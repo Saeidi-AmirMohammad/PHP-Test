@@ -10,16 +10,14 @@
 
 <body>
     <?php
-    function sum($a, $b = 0)
+    $global = "Saeidi";
+
+    function fullName($name)
     {
-        $c = $a + $b;
-        $d = $a + 2;
-        return [$c , $d];
+        global $global;
+        return $name . $global;
     }
-
-     list($num1 , $num2) = sum(4 , 6);
-     echo $num1 . "," .$num2; 
-
+    echo fullName("AmirMohammad");
     ?>
 </body>
 
