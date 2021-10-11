@@ -10,14 +10,15 @@
 
 <body>
     <?php
-    $global = "Saeidi";
+    $c = 10;
 
-    function fullName($name)
-    {
-        global $global;
-        return $name . $global;
-    }
-    echo fullName("AmirMohammad");
+    // $sum = function ($a , $b) use ($c){
+    //     return $a + $b + $c;
+    // };
+
+    $sum = fn ($a, $b) => $a + $b + $c;
+
+    echo $sum(10, 1);
     ?>
 </body>
 
