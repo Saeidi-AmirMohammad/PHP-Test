@@ -10,15 +10,13 @@
 
 <body>
     <?php
-    $c = 10;
-
-    // $sum = function ($a , $b) use ($c){
-    //     return $a + $b + $c;
-    // };
-
-    $sum = fn ($a, $b) => $a + $b + $c;
-
-    echo $sum(10, 1);
+    $name = "amirMohammad";
+    // echo strlen($name);
+    // echo str_word_count($name);
+    // echo strpos($name , "moh");
+    // echo str_replace("amir" , "mahdi" , $name);
+    // echo strtolower($name);
+    // echo strtoupper($name);
     ?>
 </body>
 
