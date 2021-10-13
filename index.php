@@ -10,15 +10,15 @@
 
 <body>
     <?php
-    $list = [
-        'name' => 'amir',
-        'family' => 'saeidi'
-    ];
+    // $list = [
+    //     'name' => 'amir',
+    //     'family' => 'saeidi'
+    // ];
 
-    $list2 = [
-        'age' => 23,
-        'code' => 333
-    ];
+    // $list2 = [
+    //     'age' => 23,
+    //     'code' => 333
+    // ];
 
     // echo count($list);
     // echo is_array($list);
@@ -30,6 +30,21 @@
     // echo array_shift($list2 , 'leftItem');
     // echo array_pop($list2);
     // echo array_flip($list);
+
+    $numa = [3, 5, 1, 7, 9, 0, 8, 4];
+
+    // echo  sort($numa);
+    // echo rsort($numa);
+
+    $list3 = [
+        'amir' => 20,
+        'reza' => 18,
+        'ahmad' => 12,
+        'kian' => 11
+    ];
+
+    //  echo ksort($list3);
+    // echo krsort($list3);
     ?>
 </body>
 
