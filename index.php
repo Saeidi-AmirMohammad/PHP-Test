@@ -10,13 +10,16 @@
 
 <body>
     <?php
-    $name = "amirMohammad";
-    // echo strlen($name);
-    // echo str_word_count($name);
-    // echo strpos($name , "moh");
-    // echo str_replace("amir" , "mahdi" , $name);
-    // echo strtolower($name);
-    // echo strtoupper($name);
+// echo str_repeat("-_-" , 10);
+
+    // $name = "amirMohammad";
+    // echo substr($name , 4 , 8);
+
+    // $name2 = "   A M I R   ";
+    // echo trim($name2);
+    
+    $text = '<p> text paragraph </p> <a href = "#"> other text </a>';
+    var_dump(strip_tags($text));
     ?>
 </body>
 
