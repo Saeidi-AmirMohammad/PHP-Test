@@ -23,7 +23,13 @@
     // echo count($list);
     // echo is_array($list);
     // echo in_array('amir' , $list);
-    echo array_merge($list, $list2);
+    // echo array_merge($list, $list2);
+
+    // echo array_key_exists('aa' , $list2);
+    // echo array_push($list2 , 'rightItem');
+    // echo array_shift($list2 , 'leftItem');
+    // echo array_pop($list2);
+    // echo array_flip($list);
     ?>
 </body>
 
