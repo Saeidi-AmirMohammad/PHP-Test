@@ -10,16 +10,20 @@
 
 <body>
     <?php
-// echo str_repeat("-_-" , 10);
+    $list = [
+        'name' => 'amir',
+        'family' => 'saeidi'
+    ];
 
-    // $name = "amirMohammad";
-    // echo substr($name , 4 , 8);
+    $list2 = [
+        'age' => 23,
+        'code' => 333
+    ];
 
-    // $name2 = "   A M I R   ";
-    // echo trim($name2);
-    
-    $text = '<p> text paragraph </p> <a href = "#"> other text </a>';
-    var_dump(strip_tags($text));
+    // echo count($list);
+    // echo is_array($list);
+    // echo in_array('amir' , $list);
+    echo array_merge($list, $list2);
     ?>
 </body>
 
