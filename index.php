@@ -19,6 +19,12 @@ else{
     echo "username or pass is not exsist";
 }
     ?>
+
+<form action="./index.php" method="$_GET">
+<input type="text" name="username">
+<input type="text" name="pass">
+<button type="submit">Send</button>
+</form>
 </body>
 
 </html>
