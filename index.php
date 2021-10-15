@@ -9,14 +9,9 @@
 </head>
 
 <body>
-    <?php
-    var_dump($_POST);
-    ?>
-
-    <form action="./index.php" method="POST">
-        <input type="email" name="username" required>
-        <input type="password" name="pass" required>
-        <button type="submit">Send</button>
+    <form action="./upload.php" method="POST" enctype="multipart/form-data">
+    <input type="file" name="image" >
+    <button type="submit">Upload</button>
     </form>
 </body>
 
