@@ -10,21 +10,14 @@
 
 <body>
     <?php
-if(isset($_GET['username']) && isset($_GET['pass'])){
-    $username = $_GET['username'];
-    $pass = $_GET['pass'];
-    var_dump($username . " " . $pass);
-}
-else{
-    echo "username or pass is not exsist";
-}
+    var_dump($_POST);
     ?>
 
-<form action="./index.php" method="$_GET">
-<input type="text" name="username">
-<input type="text" name="pass">
-<button type="submit">Send</button>
-</form>
+    <form action="./index.php" method="POST">
+        <input type="email" name="username" required>
+        <input type="password" name="pass" required>
+        <button type="submit">Send</button>
+    </form>
 </body>
 
 </html>
