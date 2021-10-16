@@ -1,19 +1,18 @@
 <?php
 
 
-var_dump($_COOKIE);
 
-setcookie(
-    'site_name',
-    'saeidi',
-    [
-        'expires' => time() + 3600,
-        'domain' => 'localhost',
-        'path' => '/',
-        'httponly' => true
-    ]
-)
+session_start([
+    'name' => 'Saeidi.ir_Session'
+]);
+
+if (isset($_SESSION['counter'])) {
+    $_SESSION['counter']++;
+} else {
+    $_SESSION['counter'] = 0;
+}
+
+var_dump($_SESSION);
 
 
 ?>
-
