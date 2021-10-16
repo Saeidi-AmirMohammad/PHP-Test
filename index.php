@@ -1,5 +1,8 @@
 <?php
 
+
+var_dump($_COOKIE);
+
 setcookie(
     'site_name',
     'saeidi',
@@ -10,6 +13,7 @@ setcookie(
         'httponly' => true
     ]
 )
+
 
 ?>
 
