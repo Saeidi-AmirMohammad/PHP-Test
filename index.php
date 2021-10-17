@@ -1,18 +1,11 @@
 <?php
-
-
-
-session_start([
-    'name' => 'Saeidi.ir_Session'
-]);
-
-if (isset($_SESSION['counter'])) {
-    $_SESSION['counter']++;
-} else {
-    $_SESSION['counter'] = 0;
+$connect = mysqli_connect('localhost:3306' , 'root' , '');
+if(! $connect){
+    echo 'could not connected : ' . mysqli_connect_error();
+    exit;
 }
+echo "connected successfully";
 
-var_dump($_SESSION);
-
+mysqli_close($connect);
 
 ?>
